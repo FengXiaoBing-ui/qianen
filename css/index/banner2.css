@@ -1,0 +1,77 @@
+.banner2_imgbox{
+    width: 1172px;
+    position: absolute;
+    left: 50%;
+    top: 193px;
+    transform: translateX(-50%);
+}
+.postion{
+    width: 100%;
+    height: 265px;
+    position: relative;
+}
+.banner2_imgbox .postion .longinmg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 265px;
+}
+.banner2_imgbox .postion .sleep{
+    position: absolute;
+    right: 42px;
+    bottom: 0;
+    width: 479px;
+    height: 360px;
+    
+}
+.postion .title{
+    position: absolute;
+    left: 149px;
+    top: 40px;
+    z-index: 999;
+}
+.postion .title img{
+    width: 304px;
+    height: 178px;
+}
+.optionsList{
+    position: absolute;
+    left: 50%;
+    top: 568px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 144px;
+}
+.list_box:nth-child(1){
+    margin-left: 0;
+}
+.list_box .optionsImg{
+    width: 150px;
+    height: 146px;
+}
+.shiming{
+    width: 89px;
+    height: 39px;
+    background: #02B1CA;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    line-height: 39px;
+    color: #fff;
+    margin: 30px 0 21px 0;
+}
+.introduce{
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #094067;
+}
