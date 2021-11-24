@@ -1,0 +1,51 @@
+
+.ProductCenter_list{
+    width: 100%;
+    padding: 5px 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ProductCenter_list .list{
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 7px;
+    margin-top: 35px;
+}
+.ProductCenter_list .list .border{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #D6DBDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProductCenter_list .list .product{
+    width: 184px;
+    height: 217px;
+}
+.ProductCenter_list .list p{
+    text-align: center;
+    width: 240px;
+    margin: 11px 0 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #094067;
+    display:-webkit-box;/**对象作为伸缩盒子模型展示**/
+    -webkit-box-orient:vertical;/**设置或检索伸缩盒子对象的子元素的排列方式**/
+    -webkit-line-clamp:2;/**显示的行数**/
+    overflow:hidden;/**隐藏超出的内容**/
+}
+.ProductCenter_list .list .detail{
+    width: 112px;
+    height: 34px;
+    background: #02B1CA;
+    opacity: 1;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    line-height: 34px;
+    color: #FFFFFF;
+ }

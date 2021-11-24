@@ -1,0 +1,16 @@
+.franchise{
+    padding: 1.875rem .75rem 3.3125rem .75rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.franchise p{
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 2.125rem;
+    color: #094067;
+}
+.franchise img{
+    width: 100%;
+    margin-top: .625rem;
+}

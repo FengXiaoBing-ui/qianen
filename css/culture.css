@@ -1,0 +1,120 @@
+
+.culture{
+    width: 100%;
+    height: 1228px;
+    box-sizing: border-box;
+}
+.juanzhou{
+    width: 100%;
+    height: 598px;
+    position: relative;
+}
+.juanzhou .qiye_bg1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 452px;
+}
+.content_box{
+    position: relative;
+    z-index: 1;
+    top: 50px;
+}
+
+.juanzhou .content_box .definition{
+    width: 780px;
+    height: 78px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #094067;
+    text-align: center;
+    margin: 0 auto;
+}
+.juanzhou .content_box .juanzhou_box{
+    width: 710px;
+    height: 466px;
+    background-image: url('../imgs/juanzhou.png');
+    background-size: 100% 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .juanzhou .content_box .juanzhou_box p{
+    width: 466px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #094067;
+ }
+
+
+ .belief{
+    width: 100%;
+    height: 630px;
+    position: relative;
+ }
+ .belief .qiye_bg2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 452px;
+ }
+ .belief .belief_list{
+     width: 1100px;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ .belief .belief_list .list{
+     margin-top: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 202px;
+    height: 217px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 20px rgba(225, 238, 240, 0.57);
+    opacity: 1;
+    border-radius: 12px;
+ }
+ .belief .belief_list .list img{
+    width: 198px;
+    height: 198px;
+    transform: translateY(-99px);
+ }
+ .belief .belief_list .list p{
+    transform: translateY(-119px);
+    width: 124px;
+    height: 117px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 30px;
+    color: #094067;
+ }
+ .belief .Bubbling {
+     position: relative;
+     top: 100px;
+     z-index: 1;
+     margin: 0 auto;
+     width: 569px;
+     height: 196px;
+     background-image: url('../imgs/duihua@2x.png');
+     background-size: 100% 100%;
+     display: flex;
+     justify-content: center;
+ }
+ .belief .Bubbling p{
+    margin-top: 42px;
+    width: 434px;
+    height: 81px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #FFFFFF;   
+ }

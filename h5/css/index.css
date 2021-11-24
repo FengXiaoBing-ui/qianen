@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h5_wrap {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.banner {
+    height: 812px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 500%;
+    flex-wrap: nowrap;
+}
+
+.wrap .slide {
+    
+}
+
+.wrap .slide:nth-child(2) {
+    height: 1476px;
+}
+
+.wrap .slide .swiper_silde {
+    background-size: 100% 100%;
+    height: 812px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wrap .slide:nth-child(1) .swiper_silde {
+    background-image: url('../img/banner1.png');
+    height: 50.75rem !important;
+}
+
+.wrap .slide:nth-child(2) .swiper_silde {
+    background-image: url('../img/banner2.png');
+    height: 92.25rem !important;
+    padding-top: 25%;
+}
+
+.wrap .slide:nth-child(3) .swiper_silde {
+    background-image: url('../img/banner3.png');
+    height: 50.75rem !important;
+    padding-top: 3.75rem;
+}
+
+.wrap .slide:nth-child(4) .swiper_silde {
+    background-image: url('../img/banner4.png');
+    height: 50.75rem !important;
+    padding-top: 3.75rem;
+}
+
+.wrap .slide:nth-child(5) .swiper_silde {
+    padding-top: 3.75rem;
+    background-image: url('../img/banner5.png');
+    height: 63.6875rem !important;
+}
+
+.circle {
+    position: fixed;
+    bottom: 3vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.circle span {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.circle span::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #A7C6CB;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle span.active {
+    border: 1px solid #02B1CA;
+}
+.circle span.active::before{
+    background: #02B1CA;
+}
+@media only srceen and(width:320px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only srceen and(width:375px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media only srceen and(width:414px) {
+    html {
+        font-size: 16.5px;
+    }
+}
+
+
+
+/* 每页轮播图标题 */
+.center_title{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center_title .center_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #02B1CA;
+    margin: 0 .75rem;
+}
+.center_title .center_title_text h3{
+    font-size: 1.4375rem;
+    font-family: '宋体';
+    font-weight: bold;
+}
+.center_title .center_title_text span{
+    font-size: .75rem;
+    font-family: '宋体';
+    font-weight: bold;
+    letter-spacing: .125rem;
+}
+.center_title .cloud{
+    width: 4.4375rem;
+    height: 2.1875rem;
+}
+
+
+/* 查看更多样式 */
+.bot_more{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.bot_more .more{
+    display: block;
+    width: 9.0625rem;
+    height: 2.3125rem;
+    border: 1px solid #A7C6CB;
+    position: relative;
+    right: 2.125rem;
+}
+.bot_more .more .more_in{
+    position: absolute;
+    width: 9.0625rem;
+    height: 2.3125rem;
+    border: 1px solid #A7C6CB;
+    top: -0.1875rem;
+    right: -0.1875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bot_more .more .more_in img{
+    width: 1rem;
+    height: 1rem;
+    margin-left: .875rem;
+}
+.bot_more .more .more_in span{
+    font-size: 1rem;
+    font-family: Source Han Serif CN;
+    font-weight: 500;
+    color: #094067;
+}
+
+/* banner2 */
+.kuang {
+    width: 90%;
+    height: 24rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.kuang_bg {
+    width: 100%;
+    height: 24rem;
+}
+
+.kuang .text {
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 17rem;
+    height: 8.4375rem;
+}
+
+.kuang .sheep {
+    width: 15.3125rem;
+    height: 12.1875rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.link_box {
+    width: 100%;
+    padding: 0 2.3125rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.link_box .list {
+    max-width: 7.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_box .list img {
+    width: 7.5rem;
+    height: 7.25rem;
+}
+
+.link_box .list .title {
+    width: 5.5rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    background: #02B1CA;
+    text-align: center;
+    opacity: 1;
+    border-radius: 1.041667rem 0px 1.041667rem 0px;
+    margin: 1.041667rem 0 1.041667rem 0;
+    font-size: 18px;
+    font-family: '宋体';
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.link_box .list .text {
+    font-size: .875rem;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    color: #094067;
+}
+
+
+/* banner3 */
+.milk_box{
+    padding: 2.1875rem .75rem;
+    box-sizing: border-box;
+}
+.milk{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.milk .border{
+    width: 10.5rem;
+    height: 10.5rem;
+    background-image: url('../img/dashed.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.milk .border img{
+    width: 9.375rem;
+    height: 9.375rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.milk .title h3{
+    font-size: 1rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    color: #094067;
+    line-height: 2rem;
+}
+.milk .title span{
+    font-size: .875rem;
+    font-family: Source Han Serif CN;
+    font-weight: 500;
+    color: #094067;
+    line-height: 2.125rem;
+}
+
+
+/* banner4 */
+.brief{
+    margin: 1.5rem auto;
+    padding: 0 .75rem;
+    box-sizing: border-box;
+    text-align: start;
+}
+.brief p{
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 38px;
+    color: #094067;
+    letter-spacing: .125rem;
+}
+.brief span{
+    color: #02B1CA;
+}
+.Phone{
+    margin: 0 auto;
+    width: 19.625rem;
+    height: 3.4375rem;
+    border: 1px solid #02B1CA;
+}
+.Phone_text{
+    width: 19.625rem;
+    height: 3.4375rem;
+    border: 1px solid #02B1CA;
+    transform: translate(-4px,-4px);
+    font-size: 1.125rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #02B1CA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sheep_link{
+    margin: 1.25rem 0;
+}
+.sheep_box{
+    width: 100%;
+    padding: 0 .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.sheep_box .sheep{
+    width: 11rem;
+    height: 11rem;
+}
+.sheep_box .sheep_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sheep_box .sheep_text img{
+    width: 3.75rem;
+    height: 1rem;
+}
+.sheep_box .sheep_text h3{
+    margin: 0 .3125rem;
+    font-size: 1rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 1.4375rem;
+    letter-spacing: .125rem;
+    color: #094067;
+}
+.sheep_box .sheep{
+    width: 11rem;
+    height: 11rem;
+}
+
+
+/* banner5 */
+.news{
+    width: 100%;
+    padding: 0 .75rem;
+    box-sizing: border-box;
+    margin: 2.125rem 0;
+}
+.news .news_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.news .news_list:nth-child(1){
+    margin: 0;
+}
+.news .news_list .news_left{
+    width: 7.5rem;
+    height: 7.5rem;
+    background-image: url('../img/radius.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+.news .news_list .news_left img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 6.3125rem;
+    height: 6.3125rem;
+}
+.news .news_list .news_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.news .news_list .news_right .time{
+    width: 13.125rem;
+    border-bottom: 1px solid #A7C6CB;
+    text-align: start;
+    font-size: .75rem;
+    font-family: Source Han Serif CN;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #9BABB7;
+}
+.news .news_list .news_right .text{
+    width: 13.125rem;
+    text-align: start;
+    font-size: .875rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 1.75rem;
+    color: #094067;
+}
+.news .news_list .news_right .detail_btn{
+    display: flex;
+    align-items: center;
+}
+.news .news_list .news_right .detail_btn span{
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 32px;
+    color: #9BABB7;
+}
+.news .news_list .news_right .detail_btn img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}

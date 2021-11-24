@@ -1,0 +1,112 @@
+.messages,.info{
+    width: 100%;
+    padding: 2.5rem 1.25rem 1.25rem 1.25rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.messages h1,.info h1{
+    color: #02B1CA;
+}
+.messages .input_box{
+    margin-top: 2.5rem;
+    width: 100%;
+}
+.messages .input_box input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-bottom:.0625rem solid #CCDBE6;
+    padding: 1.5rem 0 .625rem 0;
+}
+.messages .input_box textarea{
+    margin-top: 1.125rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: .8125rem 1rem;
+    box-sizing: border-box;
+    width: 20.8125rem;
+    height: 8.5625rem;
+    border: 1px solid #CCDBE6;
+    resize: none;
+}
+.messages .input_box input:focus{
+    border-bottom:.0625rem solid #02B1CA;
+}
+.messages .input_box h3{
+    font-size: .875rem;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #094067;
+}
+.messages .sumbit{
+    width: 10.75rem;
+    height: 2.875rem;
+    background: #02B1CA;
+    opacity: 1;
+    border-radius: .625rem 0px .625rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.375rem auto;
+    font-size: 1.125rem;
+    font-family: Source Han Serif CN;
+    font-weight: 500;
+    line-height: 2.25rem;
+    color: #FFFFFF;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset
+}
+.info{
+    width: 100%;
+    height: 41.875rem;
+    background: #EBF3F5;
+}
+.info_list{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.info_list h3{
+    width: 4.0625rem;
+    height: 1.4375rem;
+    font-size: 1rem;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    color: #5F6C7B;
+}
+.info_list p{
+    width: 15.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    color: #02B1CA;
+}
+.QRcode{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.QRcode .left,.QRcode .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QRcode h3{
+    margin-top: 1.4375rem;
+    font-size: 1rem;
+    font-family: Source Han Serif CN;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    color: #094067;
+}
+.QRcode img{
+    width: 8.125rem;
+    height: 8.125rem;
+}

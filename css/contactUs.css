@@ -1,0 +1,198 @@
+.contact{
+    width: 100%;
+    height: 1124px;
+}
+.contact_box{
+    width: 100%;
+    height: 1124px;
+    background-size: 100% 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+.contact_box .c_t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .contact_box .c_t .cloud{
+     width: 95px;
+     height: 44px;
+ }
+ .contact_box .c_t .center_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_box .c_t .center_title_text h3{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    color: #094067;
+}
+.contact_box .c_t .center_title_text p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #094067;
+}
+.contact_box  .c_p{
+    width: 874px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #094067;
+    text-align: center;
+    margin: 60px auto;
+}
+.contact_box .from_box{
+    width: 1317px;
+    height: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(204, 219, 230, 0.6);
+    opacity: 1;
+    margin: 0 auto;
+    border-radius: 60px 0px 60px 0px;
+    display: flex;
+}
+.contact_box .from_box .left,.contact_box .from_box .right{
+    height: 700px;
+    padding: 70px 0 0 70px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #02B1CA;
+}
+.contact_box .from_box .left{
+    width: 800px;
+    padding-right: 70px;
+}
+.contact_box .from_box .left .from{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact_box .from_box .left .input_box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.contact_box .from_box .left .textarea_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact_box .from_box .left .textarea_box span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #094067;
+}
+.contact_box .from_box .left .input_box span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #094067;
+}
+.contact_box .from_box .left .textarea_box textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    background: none;
+    margin-top: 24px;
+    width: 660px;
+    height: 137px;
+    border: 1px solid #CCDBE6;
+    padding: 13px 16px;
+    box-sizing: border-box;
+}
+.contact_box .from_box .left .textarea_box textarea:focus{
+    border: 1px solid #02B1CA;
+}
+
+.contact_box .from_box .left .input_box input{
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    border-bottom: 1px solid #CCDBE6;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 21px;
+    color: #094067;
+    margin-top: 24px;
+    padding-bottom: 10px;
+    transition: 0.1s;
+}
+.contact_box .from_box .left .input_box input:focus{
+    border-bottom: 1px solid #02B1CA;
+}
+.contact_box .from_box .left .sumbit{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 24px auto;
+    width: 172px;
+    height: 46px;
+    background: #02B1CA;
+    opacity: 1;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.contact_box .from_box .right{
+    width: 517px;
+    background: #EBF3F5;
+    opacity: 1;
+    border-radius: 0px 0px 60px 0px;
+}
+.contact_box .from_box .right .info{
+    margin-top: 44px;
+    display: flex;
+}
+.contact_box .from_box .right .info span{
+    display: inline-block;
+    width: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #5F6C7B;
+}
+.contact_box .from_box .right .info p{
+    margin-left: 24px;
+    width: 329px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #02B1CA;
+}
+.QRcode{
+    margin-top: 70px;
+    display: flex;
+}
+.QRcode_l,.QRcode_r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QRcode img{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+}
+.QRcode p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #094067;
+}

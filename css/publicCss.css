@@ -1,0 +1,128 @@
+a{
+    color: black;
+}
+.aboutUs{
+    top: 100px;
+    position: relative;
+    width: 100%;
+    background-color: #F5F9FA;
+    padding-bottom: 100px;
+}
+.aboutUs .aboutUs_header{
+    position: relative;
+}
+.aboutUs .aboutUs_header .aboutus_header_img{
+    width: 100%;
+    height: 280px;
+}
+.aboutUs .aboutUs_content{
+    width: 100%;
+}
+.aboutUs .aboutUs_content .aboutUs_content_1200{
+    width: 1200px;
+    height: 100%;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: 31px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(204, 219, 230, 0.6);
+}
+.center_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center_title_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center_title .center_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #02B1CA;
+    margin: 0 12px;
+}
+.center_title .center_title_text h3{
+    font-size: 32px;
+    font-family: '宋体';
+    font-weight: bold;
+    color: #094067;
+}
+.center_title .center_title_text span{
+    font-size: 16px;
+    font-family: '宋体';
+    font-weight: bold;
+    color: #094067;
+}
+.center_title .cloud{
+    width: 95px;
+    height: 44px;
+}
+.center_title .border{
+    margin-top: 19px;
+    width: 258px;
+    height: 37px;
+    border: 1px solid #A7C6CB;
+}
+.center_title .border .border_in{
+    width: 258px;
+    height: 37px;
+    border: 1px solid #A7C6CB;
+    transform: translate(-3px,-3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    color: #094067;
+}
+
+
+#test1{
+    margin: 40px 0;
+}
+#test1 a{
+    border: none;
+}
+#test1 .layui-laypage-prev{
+   width: 70px;
+   height: 36px;
+   line-height: 36px;
+   background: #E6E6E6;
+   margin-right: 26px;
+}
+#test1 .layui-laypage-next{
+   width: 70px;
+   height: 36px;
+   line-height: 36px;
+   background: #FFFFFF;
+   border: 1px solid #02B1CA;
+   margin-left: 26px;
+   color: #02B1CA;
+}
+#test1 .layui-laypage-curr{
+   width: 34px;
+   height: 36px;
+   line-height: 36px;
+   background: #02B1CA !important;
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #fff inset !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+	margin: 0;
+}

@@ -1,0 +1,587 @@
+
+.introduc_p{
+    padding: 1.625rem .75rem 1.8125rem .75rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.875rem;
+    color: #094067;
+}
+.monopoly{
+    position: relative;
+    height: 29.0625rem;
+}
+.monopoly .we_zhuanmai_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 23.5625rem;
+ }
+.monopoly .we_logo_top{
+    width: 6.5rem;
+    height: 1.75rem;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.content_box p{
+    margin-top: 1.1875rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+    color: #FFFFFF;
+}
+.monopoly .monopoly_list{
+    margin-top: 2.1875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.monopoly .monopoly_list .img_box{
+    width: 6.5625rem;
+    height: 11.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .625rem;
+    overflow: hidden;
+}
+.monopoly .monopoly_list .img_box img{
+    height: 100%;
+}
+
+
+.features{
+    width: 100%;
+    height: 34.125rem;
+    position: relative;
+}
+.we_zhuanmai_bg1{
+    width: 100%;
+    height: 27.875rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.features .features_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features .features_list .list{
+    width: 21.9375rem;
+    height: 5.5rem;
+    opacity: 1;
+    border-radius: .75rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: .625rem;
+}
+.features .features_list .list:nth-child(1){
+    background: #E19395;
+}
+.features .features_list .list:nth-child(2){
+    background: #4CBBCB;
+}
+.features .features_list .list:nth-child(3){
+    background: #7CD9CC;
+}
+.features .features_list .list:nth-child(4){
+    background: #D9C6A1;
+}
+.list .left{
+    width: 4.0625rem;
+    background: rgba(9, 64, 103, 0.08);
+}
+.list .left img{
+    width: 4.0625rem;
+    height: 5.5rem;
+}
+.list .right{
+    width: 17.875rem;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: 1rem;
+    font-family: Microsoft YaHei;
+    line-height: 1.3125rem;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+.list .right p{
+    margin: 0 .625rem;
+    width: 16.4375rem;
+    height: 3.9375rem;
+    line-height: 1.3125rem;
+    display:-webkit-box;/**对象作为伸缩盒子模型展示**/
+    -webkit-box-orient:vertical;/**设置或检索伸缩盒子对象的子元素的排列方式**/
+    -webkit-line-clamp:3;/**显示的行数**/
+    overflow:hidden;/**隐藏超出的内容**/
+}
+
+
+.service_top,.service_bot{
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 23.5625rem;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service_top{
+    position: relative;
+}
+.service_top::after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 12px solid #D9C6A1;
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service_bot{
+    margin: 0;
+    height: 32.5625rem;
+}
+.service_top img,.service_bot img{
+    margin-top: 2.5rem;
+    width: 3.125rem;
+    height: 4.75rem;
+}
+.service_top p,.service_bot p{
+    width: 20.9375rem;
+    font-size: 1rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #FFFFFF;
+    margin: 1.875rem 0 2.5rem 0;
+}
+.service_top h3,.service_bot h3{
+    font-size: 1.625rem;
+    font-family: Nobel;
+    font-weight: 400;
+    line-height: 2.1875rem;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.service_bot p{
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.service_bot h3{
+    margin-bottom: 1.875rem;
+}
+.service_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service_list .list{
+    width: 40%;
+    height: 7.25rem;
+    background: rgba(9, 64, 103, 0.28);
+    opacity: 1;
+    border-radius: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 .5rem 1.375rem .5rem;
+}
+.service_list .list h1{
+    position: absolute;
+    left: 1.1875rem;
+    top: -1.25rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.875rem;
+    color: #FFFFFF;
+}
+.service_list .list p{
+    margin: 0;
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    text-align: start;
+    color: #FFFFFF;
+    width: 80%;
+    height: 4.75rem;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    overflow:hidden;
+}
+
+
+.prospect{
+    width: 100%;
+    height: 64.0625rem;
+    position: relative;
+}
+.prospect .we_zhuanmai_bg3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 64.0625rem;
+}
+.prospect_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prospect_list .tow_list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.prospect_list .list{
+    width: 12.625rem;
+    height: 12.9375rem;
+    position: relative;
+}
+.prospect_list .list:nth-child(1n){
+    z-index: 99;
+}
+.prospect_list .list:nth-child(2n){
+    left: -2rem;
+    z-index: 1;
+}
+.prospect_list .list img{
+    width: 12.625rem;
+    height: 12.9375rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.prospect_list .list p{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    width: 7.75rem;
+    height: 6.1875rem;
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: #094067;
+     display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:5;
+ overflow:hidden;
+}
+
+
+.plan{
+    width: 100%;
+    height: 63.8125rem;
+    position: relative;
+}
+.plan_list{
+    margin: 1.25rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.plan_list .list{
+    margin-top: 1.25rem;
+    width: 10.625rem;
+    height: 22.6875rem;
+    background: #FFFFFF;
+    box-shadow: 0px .75rem 1.25rem rgba(225, 238, 240, 0.57);
+    opacity: 1;
+    border-radius: .75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan_list .list img{
+    width: 10.625rem;
+    height: 11.0625rem;
+}
+.plan_list .list h1{
+    margin-top: .9375rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.8125rem;
+    color: #094067;
+}
+.list p{
+    width: 80%;
+    height: 4.75rem;
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: #094067;
+     display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    overflow:hidden;
+}
+.plan_list .list .diamond{
+    margin-top: .6875rem;
+    width: 1.0625rem;
+    height: 1.0625rem;
+    transform: rotate(45deg);
+    
+}
+.plan_list .list:nth-child(1) .diamond{
+    background: #D9C6A1;
+}
+.plan_list .list:nth-child(2) .diamond{
+    background: #7CD9CC;
+}
+.plan_list .list:nth-child(3) .diamond{
+    background: #D16C6F;
+}
+.plan_list .list:nth-child(4) .diamond{
+    background: #4CBBCB;
+}
+.plan .tips{
+    margin: 0 auto;
+    width: 21.9375rem;
+    height: 5.875rem;
+    background: #FFF6E8;
+    opacity: 1;
+    border-radius: .75rem;
+    display: flex;
+    padding: .625rem;
+    box-sizing: border-box;
+}
+.plan .tips img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.plan .tips p{
+    margin: 0;
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #094067;
+    text-align: start;
+    margin-left: .625rem;
+ }
+
+
+ .product{
+     width: 100%;
+     height: 43.25rem;
+     position: relative;
+ }
+ .we_chanpin_bg{
+     position: absolute;
+     top: 0;
+     left: 0;
+    width: 100%;
+    height: 43.25rem;
+ }
+ .product_list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+ .product_list .list{
+     height: 16rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .product_list .list img{
+    width: 10.0625rem;
+    height: 10.0625rem;
+    transform: translateY(1.875rem);
+ }
+ .product_list .list h3{
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    color: #094067;
+ }
+ .product_list .list p{
+    width: 10.0625rem;
+    height: 2.8125rem;
+    font-size: .875rem;
+    margin-top: 1rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #094067;
+     display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+ }
+
+
+ .framework .jiagou{
+    margin: 1.25rem auto;
+    width: 96%;
+ }
+
+
+ .principle{
+     width: 100%;
+     height: 53.375rem;
+     position: relative;
+ }
+ .tuandui_bg{
+     width: 100%;
+     height: 53.375rem;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ .principle_list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+ .principle_list .list{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .principle_list .list img{
+     transform: translateY(1.25rem);
+     width: 10rem;
+     height: 10rem;
+ }
+ .principle_list .list p{
+    width: 9.6875rem;
+    height: 2.6875rem;
+     margin: 0;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+ }
+
+
+ .support{
+     width: 100%;
+     height: 65.4375rem;
+     position: relative;
+ }
+ .support_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .support_list .list{
+    background: #E7F6F8;
+    opacity: 1;
+    border-radius: .75rem;
+    width: 10.625rem;
+    height: 21.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 1.25rem;
+ }
+ .support_list .list img{
+     position: absolute;
+     bottom: 0;
+     width: 10.625rem;
+     height: 12.5625rem;
+ }
+ .support_list .list h3{
+     margin: 2rem 0 1.3125rem 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    color: #094067;
+ }
+ .support_list .list p{
+     margin: 0;
+     position: relative;
+     z-index: 9;
+     text-align: start;
+     width: 9.375rem;
+     height: 10.1875rem;
+      display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:7;
+    overflow:hidden;
+ }
+ .support .support_list .list:last-child{
+    width: 21.9375rem;
+    height: 11.1875rem;
+    background: #E7F6F8;
+    opacity: 1;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.25rem;
+    position: relative;
+ }
+ .support .support_list .list:last-child img{
+    width: 11.4375rem;
+    height: 11.1875rem;
+    position: absolute;
+    right: 0 !important;
+    top: 0;
+ }
+ .support .support_list .list:last-child p{
+    width: 13.125rem;
+    height: 5.6875rem;
+    -webkit-line-clamp:4;
+ }
+
+
+ .target{
+     height: 25.8125rem;
+     position: relative;
+ }
+ .liansuo_bg{
+    width: 100%;
+    height: 25.8125rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+ }
+ .target_list{
+    display: flex;
+    flex-direction: column;
+ }
+ .target_list .list{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .target_list .list h3{
+    width: 2.8125rem;
+    height: 3.625rem;
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 1.6875rem;
+    color: #094067;
+ }
+ .target_list .list p{
+     text-align: start;
+     margin: 0;
+    width: 16.9375rem;
+    height: 7.1875rem;
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #094067;
+     display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+    overflow:hidden;
+ }

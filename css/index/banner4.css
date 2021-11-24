@@ -1,0 +1,70 @@
+.brief{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 170px;
+}
+p{
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 38px;
+    color: #094067;
+}
+.brief span{
+    color: #02B1CA;
+}
+.Phone{
+    position: absolute;
+    left: 50%;
+    top: 290px;
+    transform: translateX(-50%);
+    width: 314px;
+    height: 61px;
+    border: 1px solid #02B1CA;
+}
+.Phone_text{
+    width: 314px;
+    height: 61px;
+    border: 1px solid #02B1CA;
+    transform: translate(-3px,-4px);
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #02B1CA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Joinin_box{
+    position: absolute;
+    left: 50%;
+    bottom: 44px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Joinin_box .Joinin_box_left,.Joinin_box .Joinin_box_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Joinin_box p{
+    font-size: 24px;
+    font-family: '宋体';
+    font-weight: bold;
+    line-height: 32px;
+    color: #094067;
+    margin-bottom: 30px;
+}
+.sheep{
+    width: 660px;
+    height: 300px;
+    margin: 0 10px;
+}
+.onetwo{
+    width: 127px;
+    height: 33px;
+}

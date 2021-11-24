@@ -1,0 +1,85 @@
+body{
+    font-family: '宋体';
+}
+.wrap{
+    margin-top: 2.5625rem;
+}
+.aboutUs_banner{
+    position: relative;
+    width: 100%;
+    height: 13.125rem;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUs_banner .center_title{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.aboutUs_banner .center_title .cloud{
+    width: 4.4375rem;
+    height: 2.0625rem;
+}
+.aboutUs_banner .center_title .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUs_banner .center_title .title h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.1875rem;
+    color: #094067;
+}
+.aboutUs_banner .center_title .title span{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1.0625rem;
+    color: #094067;
+    letter-spacing: .125rem;
+    opacity: 0.5;
+}
+.aboutUs_banner .border{
+    margin-top: 1.75rem;
+    width: 16.125rem;
+    height: 2.3125rem;
+    border: 1px solid #A7C6CB;
+}
+.aboutUs_banner .border_in{
+    width: 16.125rem;
+    height: 2.3125rem;
+    border: 1px solid #A7C6CB;
+    transform: translate(-3px,-3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8125rem;
+    font-family: Source Han Serif CN;
+    font-weight: 400;
+    color: #094067;
+}
+
+.content_box{
+    position: relative;
+    text-align: center;
+    margin-top: 1.875rem;
+    padding: 0 .75rem;
+ }
+ .content_box .content_box_h1{
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    color: #094067;
+ }
+ .content_box .we_tile_bai{
+     margin-top: .5rem;
+     width: 5.625rem;
+     height: 2.1875rem;
+ }
+
+/*display:-webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-line-clamp:3;
+ overflow:hidden; */

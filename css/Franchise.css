@@ -1,0 +1,39 @@
+.Franchise{
+    width: 994px;
+    margin: 31px auto;
+    background: #fff;
+    position: relative;
+    padding: 47px 60px;
+    box-sizing: border-box;
+}
+.Franchise p{
+    height: 395px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 34px;
+    color: #094067;
+}
+.Franchise .bot_img{
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+}
+.Franchise .bot_img .left{
+    width: 535px;
+    height: 340px;
+ }
+ .Franchise .bot_img  .right{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+ .Franchise .bot_img .right_top{
+    width: 268px;
+    height: 200px;
+ }
+ .Franchise .bot_img .right_bot{
+     margin-top: 13px;
+    width: 268px;
+    height: 127px;
+ }
